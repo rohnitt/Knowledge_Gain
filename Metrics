@@ -1,0 +1,6 @@
+https://thegradient.pub/understanding-evaluation-metrics-for-language-models/
+
+We know that for 8-bit ASCII, each character is composed of 8 bits. 
+However, this is not the most efficient way to represent letters in English language since all letters are represented
+using the same number of bits regardless of how common they are (a more optimal scheme would be to use less bits for more common letters). 
+Thus, we should expect that the character-level entropy of English language to be less than 8.
